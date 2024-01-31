@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="12.css">
+</head>
+
+<body>
+    <div id="stopwatch">
+        <h1>STOPWATCH</h1>
+        <div id="in-stopwatch">
+            <div class="timer">
+                <span id="display">00:00:00</span>
+            </div>
+            <div class="buttons">
+                <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" width="70 px" onclick="start()">
+                <img src="https://static.thenounproject.com/png/3648091-200.png" width="70 px" onclick="reset()">
+                <img src="https://cdn.icon-icons.com/icons2/912/PNG/512/stop-button_icon-icons.com_71563.png" width="70 px" onclick="stop()">
+                <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3206641/plus-circle-icon-md.png" width="83 px" onclick="addlap()">
+            </div>
+             <ul id="lap-cntr">
+                <!-- <li>
+                    <ul class="in-lap-cntr">
+                        <li>Lap 1: </li>
+                        <li>00:02:36</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="in-lap-cntr">
+                        <li>Lap 2: </li>
+                        <li>00:04:36</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="in-lap-cntr">
+                        <li>Lap 3: </li>
+                        <li>00:06:36</li>
+                    </ul>
+                </li> -->
+            </ul> 
+        </div>
+    </div>
+    <script src="12.js"></script>
+</body>
+
+</html>
